@@ -13,7 +13,7 @@
             @include('common.errors')
 
             <!-- New Task Form -->
-            <form action="/task" method="POST" class="form-horizontal">
+            <form action="/task" method="POST" class="form-horizontal panel-body">
             {{ csrf_field() }}
 
                 <!-- Task Name -->
